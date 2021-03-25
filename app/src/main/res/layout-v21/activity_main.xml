@@ -27,7 +27,7 @@
         android:backgroundTint="#faa629"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="@string/bsignin"
+        android:text="@string/btSignin"
         android:textColor="#ffffff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

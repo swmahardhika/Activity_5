@@ -2,6 +2,7 @@ package com.example.loginconstraintlayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -54,6 +55,22 @@ public class MainActivity extends AppCompatActivity {
                     t = Toast.makeText(getApplicationContext(),
                             "Login sukses", Toast.LENGTH_LONG);
                     t.show();
+
+                    //membuat objek bundle
+                    Bundle b = new Bundle();
+                    //memasukkan value
+                    b.putString("a", nama.trim());
+
+                    //
+                    b.putString("b", password.trim());
+
+                    Intent i = new Intent(getApplicationContext(), ActivityKedua.class);
+
+                    i.putExtras(b);
+
+                    startActivity(i);
+
+
                 }
                 else if (!nama.equals(email) && password.equals(pass))
                 {

@@ -2,5 +2,12 @@
     <string name="app_name">Login Constraint Layout</string>
     <string name="tEmail">Email</string>
     <string name="tPassword">Password</string>
-    <string name="bsignin">Sign-In</string>
+    <string name="btSignin">Sign-In</string>
+    <string name="tData">Data Anda</string>
+    <string name="tEmail2">Email :</string>
+    <string name="tPassword2">Password :</string>
+    <string name="txemail">Ini hasil Email</string>
+    <string name="txpassword">Ini Hasil Pasword</string>
+    <string name="label12">Login Berhasil</string>
+
 </resources>
