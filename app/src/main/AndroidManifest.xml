@@ -5,10 +5,11 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Aplikasi Login"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LoginConstraintLayout">
+        <activity android:name=".DaftarActivity" android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".ActivityKedua"
             android:label="@string/label12"
@@ -21,5 +22,4 @@
             </intent-filter>
         </activity>
     </application>
-
 </manifest>
