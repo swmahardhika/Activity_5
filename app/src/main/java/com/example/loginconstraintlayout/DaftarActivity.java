@@ -20,7 +20,14 @@ public class DaftarActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_daftar);
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fabSimpan);
+
+        edtNama = findViewById(R.id.edNama);
+        edtEmail = findViewById(R.id.edEmail);
+        edtAlamat = findViewById(R.id.edAlamat);
+        edtPassword = findViewById(R.id.edPassword);
+        edtrepass = findViewById(R.id.edrepass);
+        fab = findViewById(R.id.fabSimpan);
+
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
